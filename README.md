@@ -24,9 +24,12 @@
             padding: 0 20px; /* Внутренний отступ справа и слева */
             background-color: #171615; /* Цвет фона полосы навигации */
         }
-        .logo img {
+        .logo {
             width: 200px; /* Ширина логотипа */
             height: auto; /* Высота логотипа */
+            background-image: url('minecraft_title.png'); /* Фоновое изображение логотипа */
+            background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -42,11 +45,9 @@
     <!-- Полоса навигации -->
     <div class="header">
         <!-- Логотип -->
-        <div class="logo"><img src="minecraft_title.png" alt="Логотип"></div>
+        <div class="logo"></div>
         <!-- Кнопка "Join Now" -->
         <div class="join-button"></div>
     </div>
 </body>
 </html>
-
-
