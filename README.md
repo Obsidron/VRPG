@@ -24,7 +24,7 @@
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
         .logo {
-            <img src="paris.jpg" alt="Paris" class="center">
+            <img src="minecraft_title.png" alt="Logo" class="center">
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
