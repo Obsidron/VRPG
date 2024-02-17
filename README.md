@@ -29,7 +29,7 @@
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-position: center; /* Размещаем фоновое изображение по центру */
+            background-position: left center; /* Размещаем фоновое изображение слева */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -51,3 +51,4 @@
     </div>
 </body>
 </html>
+
