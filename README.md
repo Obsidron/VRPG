@@ -33,7 +33,7 @@
             margin-left: auto; /* Автоматический отступ слева */
         }
         .join-button {
-            width: 120px; /* Ширина кнопки */
+            width: 140px; /* Ширина кнопки */
             height: 40px; /* Высота кнопки */
             background-image: url('join_now.png'); /* Фоновое изображение кнопки */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
