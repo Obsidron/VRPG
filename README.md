@@ -25,7 +25,7 @@
         }
         .logo {
             width: 200px; /* Ширина логотипа */
-            height: 100px; /* Высота логотипа */
+            height: 90px; /* Высота логотипа */
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
