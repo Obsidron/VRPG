@@ -1,44 +1,52 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ваш заголовок</title>
     <style>
-        /* Стили для полосы навигации */
+        /* Общие стили */
         body {
             margin: 0;
             padding: 0;
         }
         .header {
-            background-color: #333; /* Цвет полосы наверху */
-            width: 100%; /* Ширина полосы наверху */
-            height: 50px; /* Высота полосы наверху */
+            background-color: #171615; /* Цвет фона полосы навигации */
+            width: 100%; /* Ширина полосы навигации */
+            height: 80px; /* Высота полосы навигации */
             position: fixed; /* Фиксированное позиционирование */
             top: 0; /* Размещение сверху */
             left: 0; /* Размещение слева */
-            z-index: 1000; /* Индекс слоя, чтобы был над остальными элементами */
+            z-index: 1000; /* Индекс слоя */
             display: flex;
-            justify-content: center; /* Выравнивание содержимого по центру */
-            align-items: center; /* Выравнивание по вертикали по центру */
+            justify-content: center; /* Выравнивание по центру по горизонтали */
+            align-items: center; /* Выравнивание по центру по вертикали */
+            padding: 0 20px; /* Внутренний отступ справа и слева */
         }
         .logo {
-            background-image: url('minecraft_title.png'); /* Установка фонового изображения */
-            background-repeat: no-repeat; /* Отключение повторения фонового изображения */
-            background-size: contain; /* Размер изображения будет подстраиваться, чтобы поместиться в контейнер */
-            background-position: center; /* Размещение изображения по центру */
-            width: 100px; /* Ширина логотипа */
-            height: 50px; /* Высота логотипа */
-            position: absolute; /* Абсолютное позиционирование */
-            top: 0; /* Размещение сверху */
-            left: 50%; /* Размещение по центру горизонтали */
-            transform: translateX(-50%); /* Сдвиг влево на 50% ширины элемента */
+            width: 200px; /* Ширина логотипа */
+            height: 100px; /* Высота логотипа */
+            background-image: url('minecraft_title.png'); /* Фоновое изображение */
+            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+            background-size: contain; /* Размер фонового изображения будет подстраиваться */
+        }
+        .join-button {
+            width: 120px; /* Ширина кнопки */
+            height: 40px; /* Высота кнопки */
+            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
+            background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+            cursor: pointer; /* Изменение курсора при наведении */
         }
     </style>
 </head>
 <body>
-    <!-- Полоса навигации с логотипом -->
+    <!-- Полоса навигации -->
     <div class="header">
-        <div class="logo"></div> <!-- Этот элемент будет содержать логотип -->
+        <!-- Логотип -->
+        <div class="logo"></div>
+        <!-- Кнопка "Join Now" -->
+        <div class="join-button"></div>
     </div>
 </body>
 </html>
