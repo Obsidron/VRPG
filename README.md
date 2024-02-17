@@ -1,56 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ваш заголовок</title>
-    <style>
-        /* Общие стили */
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #171615; /* Цвет фона страницы */
-        }
-        .header {
-            width: 100%; /* Ширина полосы навигации */
-            height: 80px; /* Высота полосы навигации */
-            position: fixed; /* Фиксированное позиционирование */
-            top: 0; /* Размещение сверху */
-            left: 0; /* Размещение слева */
-            z-index: 1000; /* Индекс слоя */
-            display: flex;
-            justify-content: space-between; /* Равномерное распределение элементов */
-            align-items: center; /* Выравнивание по центру по вертикали */
-            padding: 0 20px; /* Внутренний отступ справа и слева */
-        }
-        .logo {
-            width: 200px; /* Ширина логотипа */
-            height: 100px; /* Высота логотипа */
-            background-image: url('minecraft_title.png'); /* Фоновое изображение */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            order: 2; /* Порядок вывода элемента */
-            background-color: #171615; /* Цвет фона логотипа */
-        }
-        .join-button {
-            width: 120px; /* Ширина кнопки */
-            height: 40px; /* Высота кнопки */
-            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            cursor: pointer; /* Изменение курсора при наведении */
-            order: 1; /* Порядок вывода элемента */
-            background-color: #171615; /* Цвет фона кнопки */
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub Website</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #171615;
+    }
+    .header {
+        width: 100%;
+        height: 80px;
+        background-color: #171615;
+        text-align: center;
+    }
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+</style>
 </head>
 <body>
-    <!-- Полоса навигации -->
-    <div class="header">
-        <!-- Логотип -->
-        <div class="logo"></div>
-        <!-- Кнопка "Join Now" -->
-        <div class="join-button"></div>
-    </div>
+<div class="header">
+    <img src="minecraft_title.png" alt="Logo" class="logo">
+    <img src="join_now.png" alt="Join Now" class="button">
+</div>
 </body>
 </html>
