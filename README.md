@@ -29,6 +29,7 @@
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            align-items: center
             margin-right: auto; /* Автоматический отступ справа */
             margin-left: auto; /* Автоматический отступ слева */
         }
