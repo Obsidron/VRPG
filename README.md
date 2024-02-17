@@ -1,26 +1,17 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empty Page</title>
-    <style>
-        /* Здесь вы можете добавить свои стили */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-    </style>
+    <title>Название вашей страницы</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключаем файл стилей -->
+    <!-- Ваш стиль может быть подключен иначе, убедитесь, что это происходит правильно -->
 </head>
 <body>
-    <div class="container">
-        <!-- Здесь можете разместить содержимое вашей страницы -->
+    <div class="header">
+        <h1>Ваш заголовок</h1>
+        <!-- Здесь может быть ваша навигационная панель или другой контент -->
     </div>
+    <!-- Остальной контент вашей страницы -->
 </body>
 </html>
