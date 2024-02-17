@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +23,7 @@
         .logo {
             width: 100px; /* Ширина логотипа */
             height: auto; /* Автоматическая высота */
-            background-image: url('minecraft_title.png'); /* Путь к вашему PNG логотипу */
+            background-image: url('/minecraft_title.png'); /* Путь к вашему PNG логотипу */
             background-size: contain; /* Масштабировать изображение, чтобы оно вмещалось в контейнер */
             background-repeat: no-repeat; /* Запрет повторения фонового изображения */
             background-position: center; /* Позиционирование изображения по центру */
