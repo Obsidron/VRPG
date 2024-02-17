@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ваш заголовок</title>
+    <title>Пустая страница с полосой навигации</title>
     <link rel="stylesheet" href="styles.css"> <!-- Подключаем файл стилей -->
 </head>
 <body>
     <div class="header">
-        <!-- Здесь может быть ваш логотип или другой контент -->
+        <!-- Это ваша темно-серая полоса -->
     </div>
-    <!-- Остальной контент вашей страницы -->
 </body>
 </html>
