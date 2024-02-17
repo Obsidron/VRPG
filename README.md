@@ -23,6 +23,9 @@
             align-items: center; /* Выравнивание по центру по вертикали */
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
+        .logo-container {
+            text-align: center; /* Центрирование содержимого контейнера */
+        }
         .logo {
             width: 200px; /* Ширина логотипа */
             height: 70px; /* Высота логотипа */
@@ -46,7 +49,9 @@
     <!-- Полоса навигации -->
     <div class="header">
         <!-- Логотип -->
-        <div class="logo"></div>
+        <div class="logo-container">
+            <div class="logo"></div>
+        </div>
         <!-- Кнопка "Join Now" -->
         <div class="join-button"></div>
     </div>
