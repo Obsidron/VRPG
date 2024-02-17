@@ -18,5 +18,5 @@ body {
 .logo img {
     width: 100px; /* Ширина логотипа */
     height: auto; /* Автоматическая высота */
-    background-color: transparent; /* Прозрачный фон */
+    background-color: FFFFFF; /* Прозрачный фон */
 }
