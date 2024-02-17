@@ -29,6 +29,7 @@
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            flex-grow: 1; /* Расширение логотипа на всю доступную ширину */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
