@@ -27,7 +27,7 @@
 </head>
 <body>
     <div class="header">
-        <img src="путь_к_вашему_логотипу.png" alt="Логотип" class="logo">
+        <img src="minecraft_title.png" alt="Логотип" class="logo">
     </div>
 </body>
 </html>
