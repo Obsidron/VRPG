@@ -29,6 +29,8 @@
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            order: 2; /* Порядок вывода элемента */
+            background-color: #171615; /* Цвет фона логотипа */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -37,16 +39,18 @@
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             cursor: pointer; /* Изменение курсора при наведении */
+            order: 1; /* Порядок вывода элемента */
+            background-color: #171615; /* Цвет фона кнопки */
         }
     </style>
 </head>
 <body>
     <!-- Полоса навигации -->
     <div class="header">
-        <!-- Кнопка "Join Now" -->
-        <div class="join-button"></div>
         <!-- Логотип -->
         <div class="logo"></div>
+        <!-- Кнопка "Join Now" -->
+        <div class="join-button"></div>
     </div>
 </body>
 </html>
