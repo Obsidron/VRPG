@@ -29,8 +29,6 @@
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            margin-right: auto; /* Автоматический отступ справа */
-            margin-left: auto; /* Автоматический отступ слева */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -39,6 +37,7 @@
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             cursor: pointer; /* Изменение курсора при наведении */
+            margin-right: 20px; /* Отступ справа для разделения от края */
         }
     </style>
 </head>
