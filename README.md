@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header"></div>
     <div class="logo-container">
         <img src="minecraft_title.png" alt="Логотип">
     </div>
