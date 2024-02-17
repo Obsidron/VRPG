@@ -5,29 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ваш заголовок</title>
     <style>
-        /* Общие стили */
         body {
             margin: 0;
             padding: 0;
-            background-color: #171615; /* Цвет фона страницы */
-            font-family: Arial, sans-serif; /* Шрифт */
+            font-family: Arial, sans-serif;
+            background-color: #171615; /* Цвет фона */
         }
         .header {
-            width: 100%; /* Ширина полосы навигации */
-            height: 80px; /* Высота полосы навигации */
-            position: fixed; /* Фиксированное позиционирование */
-            top: 0; /* Размещение сверху */
-            left: 0; /* Размещение слева */
-            z-index: 1000; /* Индекс слоя */
+            background-color: #2c2b2a; /* Цвет полосы */
+            padding: 10px 20px;
             display: flex;
-            justify-content: space-between; /* Распределение элементов по горизонтали с пространством между ними */
-            align-items: center; /* Выравнивание по вертикали по центру */
-            padding: 0 20px; /* Внутренний отступ справа и слева */
-            background-color: #171615; /* Цвет фона полосы навигации */
+            justify-content: space-between;
+            align-items: center;
         }
         .logo {
-            width: 200px; /* Ширина логотипа */
-            height: auto; /* Автоматическая высота логотипа */
-            background-image: url('minecraft_title.png'); /* Фоновое изображение логотипа */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-repeat: no-repeat; /* Отключа
+            width: 200px;
+            height: auto;
+        }
+        .join-button {
+            padding: 10px 20px;
+            background-color: #7289da; /* Цвет кнопки */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="minecraft_title.png" alt="Логотип" class="logo">
+        <button class="join-button">Join Now</button>
+    </div>
+</body>
+</html>
