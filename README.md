@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш заголовок</title>
     <style>
         /* Стили для полосы навигации */
         body {
@@ -30,7 +32,7 @@
     <!-- Полоса навигации с логотипом -->
     <div class="header">
         <div class="logo">
-            <img src="/minecraft_title.png">
+            <img src="minecraft_title.png" alt="Логотип">
         </div> <!-- Этот элемент будет содержать логотип -->
     </div>
 </body>
