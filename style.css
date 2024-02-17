@@ -6,6 +6,7 @@ body {
 .header {
     background-color: #888; /* Серый цвет для строки */
     height: 20px; /* Высота строки */
+    width: 100%; /* Ширина строки по всей ширине страницы */
 }
 
 .logo-container {
