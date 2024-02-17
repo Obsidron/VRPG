@@ -19,8 +19,9 @@
             left: 0; /* Размещение слева */
             z-index: 1000; /* Индекс слоя */
             display: flex;
-            justify-content: center; /* Выравнивание содержимого по центру */
+            justify-content: space-between; /* Распределение элементов по горизонтали с пространством между ними */
             align-items: center; /* Выравнивание по вертикали по центру */
+            padding: 0 20px; /* Внутренний отступ справа и слева */
         }
         .logo {
             width: 200px; /* Ширина логотипа */
@@ -30,6 +31,14 @@
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-position: center; /* Размещаем фоновое изображение по центру */
         }
+        .join-button {
+            width: 120px; /* Ширина кнопки */
+            height: 40px; /* Высота кнопки */
+            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
+            background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+            cursor: pointer; /* Изменение курсора при наведении */
+        }
     </style>
 </head>
 <body>
@@ -37,6 +46,8 @@
     <div class="header">
         <!-- Логотип -->
         <div class="logo"></div>
+        <!-- Кнопка "Join Now" -->
+        <div class="join-button"></div>
     </div>
 </body>
 </html>
