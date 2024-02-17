@@ -30,7 +30,7 @@
     <!-- Полоса навигации с логотипом -->
     <div class="header">
         <div class="logo">
-            <img src="/minecraft_title.png" alt="Логотип">
+            <img src="/minecraft_title.png">
         </div> <!-- Этот элемент будет содержать логотип -->
     </div>
 </body>
