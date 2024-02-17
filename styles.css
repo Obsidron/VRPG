@@ -1,1 +1,32 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.header {
+    width: 100%; /* Ширина полосы навигации */
+    height: 80px; /* Высота полосы навигации */
+    background-color: #171615; /* Цвет фона полосы навигации */
+    display: flex;
+    justify-content: space-between; /* Распределение элементов по горизонтали */
+    align-items: center; /* Выравнивание по центру по вертикали */
+}
+
+.logo {
+    width: 200px; /* Ширина логотипа */
+    height: 80px; /* Высота логотипа */
+    background-image: url('minecraft_title.png'); /* Путь к изображению логотипа */
+    background-size: contain; /* Размер фонового изображения будет подстраиваться */
+    background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+    background-position: center; /* Выравнивание фонового изображения по центру */
+}
+
+.join-button {
+    width: 120px; /* Ширина кнопки */
+    height: 40px; /* Высота кнопки */
+    background-image: url('join_now.png'); /* Путь к изображению кнопки */
+    background-size: contain; /* Размер фонового изображения будет подстраиваться */
+    background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+    cursor: pointer; /* Изменение курсора при наведении */
+}
