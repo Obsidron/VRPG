@@ -9,9 +9,9 @@
         body {
             margin: 0;
             padding: 0;
+            background-color: #171615; /* Цвет фона страницы */
         }
         .header {
-            background-color: #171615; /* Цвет фона полосы навигации */
             width: 100%; /* Ширина полосы навигации */
             height: 80px; /* Высота полосы навигации */
             position: fixed; /* Фиксированное позиционирование */
@@ -19,7 +19,7 @@
             left: 0; /* Размещение слева */
             z-index: 1000; /* Индекс слоя */
             display: flex;
-            justify-content: center; /* Выравнивание по центру по горизонтали */
+            justify-content: space-between; /* Равномерное распределение элементов */
             align-items: center; /* Выравнивание по центру по вертикали */
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
@@ -43,10 +43,10 @@
 <body>
     <!-- Полоса навигации -->
     <div class="header">
-        <!-- Логотип -->
-        <div class="logo"></div>
         <!-- Кнопка "Join Now" -->
         <div class="join-button"></div>
+        <!-- Логотип -->
+        <div class="logo"></div>
     </div>
 </body>
 </html>
