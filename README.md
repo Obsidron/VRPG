@@ -34,7 +34,7 @@
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
-            height: 40px; /* Высота кнопки */
+            height: 40 px; /* Высота кнопки */
             background-image: url('join_now.png'); /* Фоновое изображение кнопки */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
