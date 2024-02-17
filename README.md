@@ -20,20 +20,18 @@
             justify-content: center; /* Выравнивание содержимого по центру */
             align-items: center; /* Выравнивание по вертикали по центру */
         }
-        .logo {
+        .logo img {
             width: 100px; /* Ширина логотипа */
             height: auto; /* Автоматическая высота */
-            background-image: url('/minecraft_title.png'); /* Путь к вашему PNG логотипу */
-            background-size: contain; /* Масштабировать изображение, чтобы оно вмещалось в контейнер */
-            background-repeat: no-repeat; /* Запрет повторения фонового изображения */
-            background-position: center; /* Позиционирование изображения по центру */
         }
     </style>
 </head>
 <body>
     <!-- Полоса навигации с логотипом -->
     <div class="header">
-        <div class="logo"></div> <!-- Этот элемент будет содержать логотип -->
+        <div class="logo">
+            <img src="/minecraft_title.png" alt="Логотип">
+        </div> <!-- Этот элемент будет содержать логотип -->
     </div>
 </body>
 </html>
