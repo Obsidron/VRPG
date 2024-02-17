@@ -23,15 +23,9 @@
             align-items: center; /* Выравнивание по вертикали по центру */
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
-        .logo {
+        .logo img {
             width: 200px; /* Ширина логотипа */
             height: auto; /* Высота логотипа */
-            background-image: url('minecraft_title.png'); /* Фоновое изображение */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-position: center; /* Размещаем фоновое изображение по центру */
-            margin-left: auto; /* Автоматический отступ слева */
-            margin-right: auto; /* Автоматический отступ справа */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -47,11 +41,12 @@
     <!-- Полоса навигации -->
     <div class="header">
         <!-- Логотип -->
-        <div class="logo"></div>
+        <div class="logo"><img src="minecraft_title.png" alt="Логотип"></div>
         <!-- Кнопка "Join Now" -->
         <div class="join-button"></div>
     </div>
 </body>
 </html>
+
 
 
