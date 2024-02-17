@@ -19,8 +19,8 @@
             left: 0; /* Размещение слева */
             z-index: 1000; /* Индекс слоя */
             display: flex;
-            justify-content: space-between; /* Распределение элементов по горизонтали с пространством между ними */
-            align-items: center; /* Выравнивание по вертикали по центру */
+            justify-content: center; /* Выравнивание по центру по горизонтали */
+            align-items: center; /* Выравнивание по центру по вертикали */
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
         .logo {
@@ -29,7 +29,6 @@
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-position: center; /* Размещаем фоновое изображение по центру */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -51,3 +50,4 @@
     </div>
 </body>
 </html>
+
