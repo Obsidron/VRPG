@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .header {
     background-color: #171615; /* Цвет фона полосы навигации */
     width: 100%; /* Ширина полосы навигации */
@@ -16,13 +17,23 @@ body {
     align-items: center; /* Выравнивание по центру по вертикали */
     padding: 0 20px; /* Внутренний отступ справа и слева */
 }
-.logo {
-  background-image: url('minecraft_title.png');
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
+.logo-container {
+    flex: 1; /* Растягиваем контейнер для логотипа */
+    display: flex;
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
 }
+
+.logo {
+    width: 200px; /* Ширина логотипа */
+    height: 70px; /* Высота логотипа */
+    background-image: url('minecraft_title.png'); /* Фоновое изображение */
+    background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+    background-size: contain; /* Размер фонового изображения будет подстраиваться */
+    display: block; /* Превращаем элемент в блочный, чтобы применить margin: 0 auto; */
+}
+
 .join-button {
     width: 120px; /* Ширина кнопки */
     height: 40px; /* Высота кнопки */
@@ -30,5 +41,4 @@ body {
     background-size: contain; /* Размер фонового изображения будет подстраиваться */
     background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
     cursor: pointer; /* Изменение курсора при наведении */
-    margin-left: 20px; /* Отступ слева для разделения от края */
 }
