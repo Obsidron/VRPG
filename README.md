@@ -24,13 +24,7 @@
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
         .logo {
-            width: 200px; /* Ширина логотипа */
-            height: 70px; /* Высота логотипа */
-            align="center"
-            background-image: url('minecraft_title.png'); /* Фоновое изображение */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            display: block; /* Превращаем элемент в блочный, чтобы применить margin: 0 auto; */
+            <img src="paris.jpg" alt="Paris" class="center">
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
