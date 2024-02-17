@@ -1,4 +1,4 @@
-**<html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +22,17 @@
         .logo {
             width: 100px; /* Ширина логотипа */
             height: auto; /* Автоматическая высота */
+            background-image: url('путь_к_вашему_логотипу.png'); /* Путь к вашему PNG логотипу */
+            background-size: contain; /* Масштабировать изображение, чтобы оно вмещалось в контейнер */
+            background-repeat: no-repeat; /* Запрет повторения фонового изображения */
+            background-position: center; /* Позиционирование изображения по центру */
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="minecraft_title.png" alt="Логотип" class="logo">
+        <!-- Контейнер для логотипа -->
+        <div class="logo"></div>
     </div>
 </body>
 </html>
-**
