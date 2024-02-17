@@ -30,6 +30,7 @@
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-position: left center; /* Размещаем фоновое изображение слева */
+            margin-right: 20px; /* Отступ справа */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -51,4 +52,5 @@
     </div>
 </body>
 </html>
+
 
