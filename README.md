@@ -25,7 +25,7 @@
         }
         .logo {
             width: 200px; /* Ширина логотипа */
-            height: 70px; /* Высота логотипа */
+            height: 50px; /* Высота логотипа */
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
@@ -34,7 +34,7 @@
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
-            height: 0px; /* Высота кнопки */
+            height: 40px; /* Высота кнопки */
             background-image: url('join_now.png'); /* Фоновое изображение кнопки */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
