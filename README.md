@@ -19,26 +19,22 @@
             left: 0; /* Размещение слева */
             z-index: 1000; /* Индекс слоя */
             display: flex;
-            justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
+            justify-content: center; /* Центрирование элементов по горизонтали */
             align-items: center; /* Выравнивание по центру по вертикали */
             padding: 0 20px; /* Внутренний отступ справа и слева */
         }
-        .logo {
-            width: 200px; /* Ширина логотипа */
-            height: 40px; /* Высота логотипа */
-            background-image: url('minecraft_title.png'); /* Фоновое изображение */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            margin-right: auto; /* Автоматический отступ справа */
-            margin-left: auto; /* Автоматический отступ слева */
-        }
-        .join-button {
-            width: 100px; /* Ширина кнопки */
-            height: 40px; /* Высота кнопки */
-            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
+        .logo, .join-button {
+            width: 200px; /* Ширина логотипа и кнопки */
+            height: 70px; /* Высота логотипа */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             cursor: pointer; /* Изменение курсора при наведении */
+        }
+        .logo {
+            background-image: url('minecraft_title.png'); /* Фоновое изображение */
+        }
+        .join-button {
+            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
         }
     </style>
 </head>
@@ -52,4 +48,3 @@
     </div>
 </body>
 </html>
-
