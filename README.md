@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -36,6 +35,11 @@
     <div class="header">
         <div class="logo"></div> <!-- Этот элемент будет содержать логотип -->
     </div>
+    <script>
+        // JavaScript для автоматической перезагрузки страницы каждые 5 секунд
+        setInterval(function() {
+            location.reload();
+        }, 5000);
+    </script>
 </body>
 </html>
-
