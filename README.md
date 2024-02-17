@@ -25,11 +25,13 @@
         }
         .logo {
             width: 200px; /* Ширина логотипа */
-            height: 100px; /* Высота логотипа */
+            height: auto; /* Высота логотипа */
             background-image: url('minecraft_title.png'); /* Фоновое изображение */
             background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
             background-position: center; /* Размещаем фоновое изображение по центру */
+            margin-left: auto; /* Автоматический отступ слева */
+            margin-right: auto; /* Автоматический отступ справа */
         }
         .join-button {
             width: 120px; /* Ширина кнопки */
@@ -51,3 +53,4 @@
     </div>
 </body>
 </html>
+
