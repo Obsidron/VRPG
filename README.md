@@ -5,57 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ваш заголовок</title>
     <style>
-        /* Общие стили */
-        body {
+        body, html {
             margin: 0;
             padding: 0;
+            height: 100%;
+        }
+        .background {
+            background-color: #f2f2f2;
+            height: 100%;
         }
         .header {
-            background-color: #171615; /* Цвет фона полосы навигации */
-            width: 100%; /* Ширина полосы навигации */
-            height: 80px; /* Высота полосы навигации */
-            position: fixed; /* Фиксированное позиционирование */
-            top: 0; /* Размещение сверху */
-            left: 0; /* Размещение слева */
-            z-index: 1000; /* Индекс слоя */
+            background-color: #171615;
+            padding: 20px;
             display: flex;
-            justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
-            align-items: center; /* Выравнивание по центру по вертикали */
-            padding: 0 20px; /* Внутренний отступ справа и слева */
+            justify-content: space-between;
+            align-items: center;
         }
         .logo-container {
-            flex: 1; /* Растягиваем контейнер для логотипа */
-            display: flex;
-            justify-content: center; /* Центрируем содержимое по горизонтали */
-            align-items: center; /* Центрируем содержимое по вертикали */
+            text-align: center;
         }
         .logo {
-            width: 200px; /* Ширина логотипа */
-            height: 70px; /* Высота логотипа */
-            background-image: url('minecraft_title.png'); /* Фоновое изображение */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            display: block; /* Превращаем элемент в блочный, чтобы применить margin: 0 auto; */
+            width: 200px;
+            height: auto;
         }
-        .join-button {
-            width: 120px; /* Ширина кнопки */
-            height: 40px; /* Высота кнопки */
-            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            cursor: pointer; /* Изменение курсора при наведении */
+        .button-container {
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <!-- Полоса навигации -->
-    <div class="header">
-        <!-- Логотип -->
-        <div class="logo-container">
-            <div class="logo"></div>
-        </div>
-        <!-- Кнопка "Join Now" -->
-        <div class="join-button"></div>
+    <div class="background">
+        <header class="header">
+            <div class="logo-container">
+                <img src="minecraft_title.png" alt="Логотип" class="logo">
+            </div>
+            <div class="button-container">
+                <a href="#" class="button">Join now!</a>
+            </div>
+        </header>
     </div>
 </body>
+</html>
+
 </html>
