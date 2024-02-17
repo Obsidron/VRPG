@@ -21,14 +21,14 @@
             display: flex;
             justify-content: center; /* Выравнивание содержимого по центру */
             align-items: center; /* Выравнивание по вертикали по центру */
-            background-image: url('minecraft_title.png'); /* Фоновое изображение */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-position: center; /* Размещаем фоновое изображение по центру */
         }
         .logo {
             width: 200px; /* Ширина логотипа */
             height: 100px; /* Высота логотипа */
+            background-image: url('minecraft_title.png'); /* Фоновое изображение */
+            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
+            background-size: contain; /* Размер фонового изображения будет подстраиваться */
+            background-position: center; /* Размещаем фоновое изображение по центру */
         }
     </style>
 </head>
@@ -36,7 +36,7 @@
     <!-- Полоса навигации -->
     <div class="header">
         <!-- Логотип -->
-        <img src="minecraft_title.png" alt="Логотип" class="logo">
+        <div class="logo"></div>
     </div>
 </body>
 </html>
