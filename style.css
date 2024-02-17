@@ -1,38 +1,28 @@
-/* Общие стили */
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Цвет фона страницы */
+    background-color: #171615;
 }
-.header {
-    background-color: #171615; /* Цвет фона полосы навигации */
-    width: 100%; /* Ширина полосы навигации */
-    height: 80px; /* Высота полосы навигации */
-    position: fixed; /* Фиксированное позиционирование */
-    top: 0; /* Размещение сверху */
-    left: 0; /* Размещение слева */
-    z-index: 1000; /* Индекс слоя */
+
+.container {
+    width: 100%;
+    height: 80px;
     display: flex;
-    justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
-    align-items: center; /* Выравнивание по центру по вертикали */
-    padding: 0 20px; /* Внутренний отступ справа и слева */
+    justify-content: center;
+    align-items: center;
 }
+
 .logo {
-    width: 200px; /* Ширина логотипа */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
+    max-height: 100%;
+    margin-right: 20px;
 }
-.join-button {
-    width: 120px; /* Ширина кнопки */
-    height: 40px; /* Высота кнопки */
-    background-image: url('join_now.png'); /* Путь к изображению */
-    background-size: cover; /* Масштабирование изображения */
-    color: transparent; /* Прозрачный цвет текста, так как текст не нужен */
-    border: none; /* Убираем границу кнопки */
-    cursor: pointer; /* Изменение курсора при наведении */
+
+.button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
 }
-.line {
-    width: 100%; /* Ширина линии */
-    height: 1px; /* Высота линии */
-    background-color: #ccc; /* Цвет линии */
+
+.button img {
+    max-height: 100%;
 }
