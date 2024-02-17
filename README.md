@@ -5,59 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ваш заголовок</title>
     <style>
-        body, html {
+        /* Общие стили */
+        body {
             margin: 0;
             padding: 0;
-            height: 100%;
-        }
-        .background {
-            background-color: #f2f2f2;
-            height: 100%;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Цвет фона страницы */
         }
         .header {
-            background-color: #171615;
-            padding: 20px;
+            background-color: #171615; /* Цвет фона полосы навигации */
+            width: 100%; /* Ширина полосы навигации */
+            height: 80px; /* Высота полосы навигации */
+            position: fixed; /* Фиксированное позиционирование */
+            top: 0; /* Размещение сверху */
+            left: 0; /* Размещение слева */
+            z-index: 1000; /* Индекс слоя */
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .logo-container {
-            text-align: center;
+            justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
+            align-items: center; /* Выравнивание по центру по вертикали */
+            padding: 0 20px; /* Внутренний отступ справа и слева */
         }
         .logo {
-            width: 200px;
-            height: auto;
+            width: 200px; /* Ширина логотипа */
+            height: auto; /* Автоматическая высота для сохранения пропорций */
         }
-        .button-container {
-            text-align: center;
+        .join-button {
+            width: 120px; /* Ширина кнопки */
+            height: 40px; /* Высота кнопки */
+            background-color: #4CAF50; /* Цвет фона кнопки */
+            color: white; /* Цвет текста кнопки */
+            border: none; /* Убираем границу кнопки */
+            border-radius: 4px; /* Скругляем углы кнопки */
+            cursor: pointer; /* Изменение курсора при наведении */
         }
-        .button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            text-decoration: none;
-            font-size: 16px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background-color: #45a049;
+        .line {
+            width: 100%; /* Ширина линии */
+            height: 1px; /* Высота линии */
+            background-color: #ccc; /* Цвет линии */
         }
     </style>
 </head>
 <body>
-    <div class="background">
-        <header class="header">
-            <div class="logo-container">
-                <img src="minecraft_title.png" alt="Логотип" class="logo">
-            </div>
-            <div class="button-container">
-                <a href="#" class="button">Join now!</a>
-            </div>
-        </header>
+    <!-- Полоса навигации -->
+    <div class="header">
+        <!-- Логотип -->
+        <img src="minecraft_title.png" alt="Логотип" class="logo">
+        <!-- Кнопка "Join Now" -->
+        <button class="join-button">Join Now</button>
     </div>
+    <!-- Линия под полосой навигации -->
+    <div class="line"></div>
 </body>
-</html>
-
 </html>
