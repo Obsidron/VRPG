@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #171615; /* Цвет фона страницы */
+            font-family: Arial, sans-serif; /* Шрифт */
         }
         .header {
             width: 100%; /* Ширина полосы навигации */
@@ -26,28 +27,7 @@
         }
         .logo {
             width: 200px; /* Ширина логотипа */
-            height: auto; /* Высота логотипа */
+            height: auto; /* Автоматическая высота логотипа */
             background-image: url('minecraft_title.png'); /* Фоновое изображение логотипа */
             background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-        }
-        .join-button {
-            width: 120px; /* Ширина кнопки */
-            height: 40px; /* Высота кнопки */
-            background-image: url('join_now.png'); /* Фоновое изображение кнопки */
-            background-size: contain; /* Размер фонового изображения будет подстраиваться */
-            background-repeat: no-repeat; /* Отключаем повторение фонового изображения */
-            cursor: pointer; /* Изменение курсора при наведении */
-        }
-    </style>
-</head>
-<body>
-    <!-- Полоса навигации -->
-    <div class="header">
-        <!-- Логотип -->
-        <div class="logo"></div>
-        <!-- Кнопка "Join Now" -->
-        <div class="join-button"></div>
-    </div>
-</body>
-</html>
+            background-repeat: no-repeat; /* Отключа
