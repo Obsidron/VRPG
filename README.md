@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VRPG</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Empty Page</title>
+    <style>
+        /* Здесь вы можете добавить свои стили */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="header">
-        VRPG
+    <div class="container">
+        <!-- Здесь можете разместить содержимое вашей страницы -->
     </div>
-    <div class="logo-container">
-        <img src="your-logo.png" alt="Your Logo">
-    </div>
-
-    <!-- Здесь будет основное содержимое вашего сайта -->
 </body>
 </html>
