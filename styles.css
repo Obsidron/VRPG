@@ -1,23 +1,6 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar {
-    background-color: #171615;
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar img {
-    width: 399px;
-    height: 100px;
-    background-color: white; /* Если это нужно, в зависимости от вашего изображения */
-    margin-left: calc(50% - 199.5px); /* Чтобы разместить по центру */
+div {
+  width: 100%;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
 }
