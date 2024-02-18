@@ -10,12 +10,14 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Чтобы панель находилась выше остального содержимого */
 }
 
 .navbar img {
     width: 399px;
     height: 100px;
-    margin-left: calc(50% - 199.5px); /* Добавим немного отступа слева */
-    background-color: white;
+    background-color: white; /* Если это нужно, в зависимости от вашего изображения */
 }
