@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="navbar">
-        <img src="{{ site.theme_settings.logo_path }}" alt="Minecraft Title">
+        <img src="{{ site.theme_settings.logo_path }}" alt="Minecraft sTitle">
     </div>
     <!-- Здесь может быть остальное содержимое вашей страницы -->
 </body>
