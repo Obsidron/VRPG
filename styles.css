@@ -4,16 +4,18 @@ body {
 }
 
 .navbar {
+    background-color: #171615;
+    height: 80px;
     width: 100%;
-    height: {{ site.theme_settings.navbar_height }}px;
-    background-color: {{ site.theme_settings.navbar_color }};
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .navbar img {
-    width: {{ site.theme_settings.logo_width }}px;
-    height: {{ site.theme_settings.logo_height }}px;
-    background-color: white; /* Если это нужно, в зависимости от вашего изображения */
+    width: 399px;
+    height: 100px;
+    margin-left: calc(50% - 199.5px); /* Добавим немного отступа слева */
+    background-color: white;
 }
