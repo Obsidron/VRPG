@@ -4,9 +4,9 @@ body {
 }
 
 .navbar {
-    background-color: {{ site.theme_settings.navbar_color }};
-    height: {{ site.theme_settings.navbar_height }}px;
     width: 100%;
+    height: {{ site.theme_settings.navbar_height }}px;
+    background-color: {{ site.theme_settings.navbar_color }};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +15,5 @@ body {
 .navbar img {
     width: {{ site.theme_settings.logo_width }}px;
     height: {{ site.theme_settings.logo_height }}px;
-    background-color: white;
-    margin-left: 10px; /* Добавим немного отступа слева */
+    background-color: white; /* Если это нужно, в зависимости от вашего изображения */
 }
