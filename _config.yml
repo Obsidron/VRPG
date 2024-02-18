@@ -3,3 +3,6 @@ name: VRPG
 theme_settings:
   navbar_color: "#171615"  # Цвет панели навигации
   navbar_height: 80         # Высота панели навигации
+  logo_path: "minecraft_title.png"  # Путь к изображению логотипа
+  logo_width: 249          # Ширина логотипа
+  logo_height: 62          # Высота логотипа
