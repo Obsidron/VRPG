@@ -7,8 +7,12 @@ body {
     background-color: #171615;
     height: 80px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Чтобы панель находилась выше остального содержимого */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    width: 998px;
+    height: 250px;
 }
