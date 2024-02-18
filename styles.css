@@ -4,8 +4,8 @@ body {
 }
 
 .navbar {
-    background-color: #171615;
-    height: 80px;
+    background-color: {{ site.theme_settings.navbar_color }};
+    height: {{ site.theme_settings.navbar_height }}px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -13,6 +13,8 @@ body {
 }
 
 .navbar img {
-    width: 998px;
-    height: 250px;
+    width: {{ site.theme_settings.logo_width }}px;
+    height: {{ site.theme_settings.logo_height }}px;
+    background-color: white;
+    margin-left: 10px; /* Добавим немного отступа слева */
 }
