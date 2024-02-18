@@ -13,11 +13,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Чтобы панель находилась выше остального содержимого */
 }
 
 .navbar img {
     width: 399px;
     height: 100px;
     background-color: white; /* Если это нужно, в зависимости от вашего изображения */
+    margin-left: calc(50% - 199.5px); /* Чтобы разместить по центру */
 }
