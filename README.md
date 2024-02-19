@@ -9,6 +9,10 @@
         }
         .logo {
             display: block;
+            img src="minecraft_title.png";s
+            alt="Logo" class="logo";
+            height="30%";
+            width="30%";
             margin: 0 auto;
         }
         .button {
@@ -20,7 +24,6 @@
     <header>
         Website Header
     </header>
-    <img src="minecraft_title.png" alt="Logo" class="logo" height="30%" width="30%">
     <button class="button" type="button">Join now!</button>
 </body>
 </html>
