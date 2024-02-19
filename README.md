@@ -2,11 +2,10 @@
 <html>
 <head>
     <style>
-        header {
+        <center>header {
             background-color: #171615;
             height: 70px;
             width: 100%;
-            text-align: center;
         }
         .logo {
             display: block;
