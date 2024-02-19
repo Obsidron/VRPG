@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+
 </head>
 <body>
-    <h1 style="background-color: #171615"</h1>
-</body>
-</html>
+    <header style="background-color: #171615;">
+        <h1>Hello!</h1>
+        <a href="">Home</a>
+    </header>
+</body>    
