@@ -10,10 +10,9 @@
             justify-content: space-between;
             align-items: center;
             padding: 0 20px;
-        }
+        } 
         .logo {
-            height: 50px;
-            width: auto;
+            max-height: 70px;
         }
         .button {
             background-color: #ffffff;
@@ -24,3 +23,4 @@
             cursor: pointer;
         }
     </style>
+</head>
