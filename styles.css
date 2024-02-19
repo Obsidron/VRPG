@@ -3,3 +3,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+.navbar {
+  background: #171615;
+  border: none;
+  width: 100%;
+  height: 70px;
