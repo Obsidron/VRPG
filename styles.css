@@ -8,3 +8,8 @@
   height: 70px;
   backround: #171615
 }
+
+.band-header {
+  text-align: left;
+  background-color: #1abc9c;
+}
