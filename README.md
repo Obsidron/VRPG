@@ -1,11 +1,26 @@
-<body>
-  <center><button type="button" class="button">Join now!
-  <center><img src="minecraft_title.png" alt="Logo" class="center" width="30%" height="30%">
-</body>
+<!DOCTYPE html>
+<html>
 <head>
-    <header>
-        width: 100%;
-        height: 70px;
-        background-color: #171615;
-    </header>
+    <style>
+        header {
+            background-color: #171615;
+            height: 70px;
+            text-align: center;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto;
+        }
+        .button {
+            float: right;
+        }
+    </style>
 </head>
+<body>
+    <header>
+        Website Header
+    </header>
+    <img src="minecraft_title.png" alt="Logo" class="logo" height="30%" width="30%">
+    <button class="button" type="button">Join now!</button>
+</body>
+</html>
