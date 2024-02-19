@@ -1,11 +1,9 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
-    height: 70px;
-    background: #171615; /* Цвет шапки */
-    overflow: hidden;
+    height: 3px; /* Высота линии */
+    background-color: #171615; /* Цвет линии */
+}
+
 }
 
 .logo-container {
