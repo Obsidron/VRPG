@@ -2,7 +2,7 @@
 <html>
 <head>
     <style>
-        <center>header {
+        .header {
             background-color: #171615;
             height: 70px;
             width: 100%;
