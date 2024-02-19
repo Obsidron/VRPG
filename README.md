@@ -2,28 +2,25 @@
 <html>
 <head>
     <style>
-        .header {
-            background-color: #171615;
-            height: 70px;
+        header {
             width: 100%;
+            height: 70px;
+            background-color: #171615;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
         }
         .logo {
-            display: block;
-            img src="minecraft_title.png";s
-            alt="Logo" class="logo";
-            height="30%";
-            width="30%";
-            margin: 0 auto;
+            height: 50px;
+            width: auto;
         }
         .button {
-            float: right;
+            background-color: #ffffff;
+            color: #171615;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
-</head>
-<body>
-    <header>
-        Website Header
-    </header>
-    <button class="button" type="button">Join now!</button>
-</body>
-</html>
