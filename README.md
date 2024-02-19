@@ -1,1 +1,1 @@
-<img src="minecraft_title.png" alt="Logo" class="center" width="500" height="600">
+<img src="minecraft_title.png" alt="Logo" class="center" width="30%" height="30%">
