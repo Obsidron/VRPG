@@ -3,13 +3,10 @@
 <head>
     <style>
         header {
+            <header>
             width: 100%;
             height: 70px;
-            background-color: #171615;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
+            <p style="color: #171615">
         } 
         .logo {
             max-height: 70px;
