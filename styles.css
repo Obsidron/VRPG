@@ -1,10 +1,11 @@
 header {
     background-color: #171615;
     height: 70px;
-    width: 100%;
+    width: 100vw; /* Set width to 100% of the viewport width */
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 }
 
 .logo img {
