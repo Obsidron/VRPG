@@ -6,7 +6,7 @@
 </head>
 <body>
     <header style="background-color: #171615;">
-        <h1>Hello!</h1>
-        <a href="">Home</a>
+        <h1></h1>
+        <a href=""></a>
     </header>
 </body>    
