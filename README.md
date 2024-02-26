@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отображение картинки</title>
 </head>
 <body>
-    <header style="background-color: #171615;">
-        <h1></h1>
-        <a href=""></a>
-    </header>
-</body>    
+    <h1>Отображение картинки на странице</h1>
+    <img src="giftest.gif" alt="giftest">
+</body>
+</html>
