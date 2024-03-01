@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+
+.header-overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    z-index: 2;
+}
+
+.header {
+    background: #171615;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    cursor: pointer;
+}
+
+.join-button {
+    position: absolute;
+    right: 20px; /* Подстраиваем расположение по вашему желанию */
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 200px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.48px;
+    vertical-align: baseline;
+    word-spacing: 0px;
+    font-optical-sizing: auto;
+    background-color: #3C8527;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 0px 4px 0px rgb(42, 100, 28),
+    -4px 0px 0px rgb(42, 100, 28),
+    0px -4px 0px rgb(82, 165, 53),
+    4px 0px 0px rgba(42, 100, 28);
+    transition: background-color 0.05s ease;
+    text-decoration: none;
+    transition: text-decoration 1s ease;
+}
+
+.join-button:hover {
+    background-color: #337121;
+}
+.content {
+    height: 2000px;
+}
+
+body {
+    background-color: #23557e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.sidebar {
+    position: sticky;
+    top: 110px;
+    transform: translateY(-50px);
+    height: 1500px;
+    left: 0;
+    width: 270px; /* Ширина панели */
+    background: #EDE5E2;
+    z-index: -1; /* Устанавливаем выше других элементов, чтобы панель была видна */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем элементы по ширине */
+}
+
+.avatar {
+    position: absolute;
+    width: 100px;
+    border-radius: 50%; /* Делаем аву круглой */
+    margin-top: 70px; /* Добавляем отступ сверху для авы */
+    margin-bottom: 20px;
+}
+
+.sidebar-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+.nickname {
+    margin: 0;
+    font-size: 24px;
+    margin-top: 180px;
+    color: #333;
+    font-family: 'MinecraftTen', sans-serif;
+}
+@font-face {
+    font-family: 'MinecraftTen';
+    src: url('MinecraftTen-VGORe.ttf') format('truetype');
+  }
+  .overlay {
+    position: sticky;
+    margin-top: 10px;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 49px;
+    text-align: left;
+    font-weight: normal;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -2;
+}
+.container {
+    display: flex;
+}
+.main-menu-text {
+    margin-left: 290px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -10px;
+    font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+    transform: translateY(65%);
+}
