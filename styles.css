@@ -139,3 +139,6 @@ body {
     font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
     transform: translateY(65%);
 }
+.inner {
+  max-width: 75%;
+}
