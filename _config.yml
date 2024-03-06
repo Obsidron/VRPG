@@ -1,1 +1,5 @@
 name: VRPG
+markdown: kramdown
+theme: minima # Измените на имя выбранной вами темы, если используете ее
+plugins:
+  - jekyll-feed
