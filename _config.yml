@@ -1,0 +1,18 @@
+# Настройки сайта
+title: Мой сайт
+description: Описание моего сайта
+baseurl: "" # Базовый URL, если сайт размещен в подпапке
+url: "https://example.com" # Основной URL вашего сайта
+
+# Настройки темы
+theme: jekyll-theme-primer # Тема сайта
+
+# Плагины
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Настройки развертывания
+remote_theme: username/repository # Тема, размещенная на GitHub
+markdown: kramdown
+highlighter: rouge
