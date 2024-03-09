@@ -16,3 +16,5 @@ plugins:
 remote_theme: username/repository # Тема, размещенная на GitHub
 markdown: kramdown
 highlighter: rouge
+
+destination: /docs
